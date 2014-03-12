@@ -1,14 +1,17 @@
 #!/usr/bin/env python
 import freenect
-import matplotlib.pyplot as mp
-import frame_convert
 import signal
 import time
+
+import matplotlib.pyplot as mp
 import scipy.io as sio
 from pylab import *
 import matplotlib.pyplot as plt
 from matplotlib.path import Path
 import matplotlib.patches as patches
+
+from code import frame_convert
+
 
 keep_running = True
 

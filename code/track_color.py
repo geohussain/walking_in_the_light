@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 import freenect
-import matplotlib.pyplot as mp
-import frame_convert
 import signal
-import numpy as np
-import itertools
+
+import matplotlib.pyplot as mp
 from pylab import *
 from scipy import ndimage
+
+from code import frame_convert
+
 
 keep_running = True
 
